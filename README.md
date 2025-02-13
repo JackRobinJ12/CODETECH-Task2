@@ -16,19 +16,22 @@ Instructions:
 Requirements:
 Java Development Kit (JDK) 8 or higher.
 Running the Program:
-Compile the Program: Open a terminal or command prompt and navigate to the directory where the StudentGradesTracker.java file is located. Compile the program using the following command:
+Compile the Program:
+Open a terminal or command prompt and navigate to the directory where the StudentGradesTracker.java file is located. Compile the program using the following command:
 
 nginx
 Copy
 Edit
 javac StudentGradesTracker.java
-Run the Program: After compiling, run the program using the following command:
+Run the Program:
+After compiling, run the program using the following command:
 
 nginx
 Copy
 Edit
 java StudentGradesTracker
-Follow the Prompts: The program will ask for:
+Follow the Prompts:
+The program will ask for:
 
 The number of subjects.
 The grade for each subject (as a numeric input).
@@ -54,10 +57,13 @@ Letter Grade: B
 Code Explanation:
 Input Handling:
 The program uses Scanner to take user input for the number of subjects and the grades for each subject.
+
 Grade Calculation:
 It sums the grades for all subjects and computes the average.
+
 Letter Grade Assignment:
 The method getLetterGrade(double average) is used to convert the average grade to a corresponding letter grade (A, B, C, D, or F) based on the following criteria:
+
 90 and above: A
 80 to 89: B
 70 to 79: C
