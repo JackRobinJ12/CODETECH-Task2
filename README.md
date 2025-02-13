@@ -1,32 +1,41 @@
-StudentGradesTracker
-Details:
-Name: JACK ROBIN J
-Company: CODETECH IT SOLUTIONS
-ID: CT08TGY
-Domain: Java Programming
-Duration: January to February 2025
-Overview:
-The StudentGradesTracker is a Java program designed to track a student's grades across multiple subjects, compute the average grade, and provide a letter grade based on the average score.
+# StudentGradesTracker
 
-Features:
-The program allows the user to input the number of subjects and the grade for each subject.
-It calculates the average grade for all the subjects.
-It then converts the average grade to a letter grade (A, B, C, D, or F) based on standard grading criteria.
-Instructions:
-Requirements:
-Java Development Kit (JDK) 8 or higher.
-Running the Program:
-Compile the Program:
-Open a terminal or command prompt and navigate to the directory where the StudentGradesTracker.java file is located. Compile the program using the following command:
+## Details:
+- **Name:** JACK ROBIN J  
+- **Company:** CODETECH IT SOLUTIONS  
+- **ID:** CT08TGY  
+- **Domain:** Java Programming  
+- **Duration:** January to February 2025  
 
-nginx
-Copy
-Edit
-javac StudentGradesTracker.java
+---
+
+## Overview:
+The `StudentGradesTracker` is a Java program designed to track a student's grades across multiple subjects, compute the average grade, and provide a letter grade based on the average score.
+
+---
+
+## Features:
+- The program allows the user to input the number of subjects and the grade for each subject.
+- It calculates the average grade for all the subjects.
+- It then converts the average grade to a letter grade (`A`, `B`, `C`, `D`, or `F`) based on standard grading criteria.
+
+---
+
+## Instructions:
+
+### Requirements:
+- Java Development Kit (JDK) 8 or higher.
+
+### Running the Program:
+1. **Compile the Program:**  
+   Open a terminal or command prompt and navigate to the directory where the `StudentGradesTracker.java` file is located. Compile the program using the following command:
+   
+   ```bash
+   javac StudentGradesTracker.java
 Run the Program:
 After compiling, run the program using the following command:
 
-nginx
+bash
 Copy
 Edit
 java StudentGradesTracker
@@ -41,7 +50,7 @@ The average grade.
 The letter grade corresponding to the average.
 Example:
 Input:
-yaml
+plaintext
 Copy
 Edit
 Enter the number of subjects: 3
@@ -49,7 +58,7 @@ Enter grade for subject 1: 85
 Enter grade for subject 2: 92
 Enter grade for subject 3: 78
 Output:
-yaml
+plaintext
 Copy
 Edit
 Average Grade: 85.0
@@ -75,3 +84,6 @@ This project is created for educational purposes and may be freely used, modifie
 Author:
 JACK ROBIN J
 Company: CODETECH IT SOLUTIONS
+yaml
+Copy
+Edit
